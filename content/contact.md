@@ -1,10 +1,10 @@
 ---
-id: contact
 title: Contact
-description: Contact
+date: 2018-01-28T00:00:00+02:00
+nodateline: true
+noprevnext: true
+disable_comments: true
 ---
-
-# Contact
 
 Vragen over illigale activiteiten zullen niet beantwoord worden! Zie ook onze [FAQ](/faq).
 

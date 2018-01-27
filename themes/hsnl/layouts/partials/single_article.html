@@ -7,11 +7,9 @@
         <div class="article-inner">
           {{ partial "article_header" . }}
 	  {{ partial "article_footer" . }}
-	  {{ partial "share" . }}
 	  </div>
           <div class="entry-content" itemprop="articleBody">
             {{ .Content }}
-	    {{ partial "share" . }}
           </div>
 	  {{ if (.Params.tags) }}
 	  <div class="tags">

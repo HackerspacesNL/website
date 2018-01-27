@@ -1,11 +1,12 @@
 ---
 id: home
 title: Wat is een hackerspace
-description: Wat is een hackerspace
 url: "index.html"
+date: 2018-01-28T00:00:00+02:00
+nodateline: true
+noprevnext: true
+disable_comments: true
 ---
-
-# Wat is een hackerspace?
 
 Een hackerspace is een plek waar technisch en creatief gemotiveerde personen een gezamelijke
 werkplaats en ontmoetingsplek in hebben. Hoewel geen hackerspace hetzelfde is, vindt men in
