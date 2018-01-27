@@ -1,0 +1,19 @@
+baseurl = "/"
+languageCode = "nl-NL"
+title = "Nederlandse hackerspaces en -organisaties"
+paginate = 5
+theme = "hsnl"
+
+enableRobotsTXT = true
+googleAnalytics = ""
+disqusShortname = ""
+SectionPagesMenu = "main"
+
+[params]
+  theme_variant = "lumen"
+  description="work in progress"
+  powered_by = ""
+  hide_author = false
+  images = []
+  github = ""
+  twitter = ""
