@@ -1,36 +1,18 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/spf13/hugoThemes#themetoml for an example
-
-name = "Bulma"
+name = "Travelify"
 license = "MIT"
-licenselink = "https://github.com/jeblister/bulma/master/LICENSE.md"
-description = "Bulma is a simple and a responsive Hugo theme that offers a traditional blog mixed with a landing page."
-homepage = "http://blog.elemnts.org/"
-tags = ["responsive", "bulma", "landing", "blog", "themes", "flexbox", "modern"]
-features = ["landing","Mobile-first Design",
-  "Responsive Design",
-  "Flexbox Layouts",
-  "Google Analytics",
-  "Disqus Commenting",
-  "OpenGraph support",
-  "Schema Structured Data",
-  "Paginated Lists",
-  "Reading Time",
-  "Last Modified time",
-  "Word Count",
-  "Related Posts",
-  "Section Menu",
-  "Block Templates",
-  "Table of Contents",
-  "SEO Site Verification"]
-min_version = 0.19
+licenselink = "//github.com/balaramadurai/hugo-travelify-theme/blob/master/LICENSE.md"
+description = "Lovely wordpress theme, now coming to Hugo. "
+homepage = "//github.com/balaramadurai/hugo-travelify-theme"
+tags = ["syntax highlighting", "rss", "widgets", "google analytics", "responsive", "carousel", "slider"]
+features = ["syntax highlighting", "rss", "widgets", "google analytics", "carousel", "responsive", "slider"]
+min_version = 0.15
 
 [author]
-  name = "jeblister"
-  homepage = "http://findme.surge.sh/"
+  name = "Dr. Bala Ramadurai"
+  homepage = "//github.com/balaramadurai"
 
 # If porting an existing theme
 [original]
-  name = "After Dark"
-  homepage = "https://comfusion.github.io/after-dark/"
-  repo = "http://themes.gohugo.io/after-dark/"
+  name = "Aigars Silkalns"
+  homepage = "//colorlib.com/travelify/"
+  repo = "//github.com/puikinsh/travelify"
