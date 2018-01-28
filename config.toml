@@ -25,6 +25,7 @@ canonifyURLs = true
 [social]
   twitter = "NLHackers"
   github = "hackerspacesNL"
+  feed = "/index.xml"
 
 [[menu.main]]
   name = "Home"
