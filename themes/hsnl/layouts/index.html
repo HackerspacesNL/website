@@ -12,6 +12,7 @@
 	<div id="container">
 	  <div {{ if .Site.Params.widgets }}id="primary"{{ end }} class="no-margin-left">
 	    <div id="content">
+              {{.Content}}
 	      {{ partial "article_list" . }}
 	    </div>
 	  </div><!-- #content -->
