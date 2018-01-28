@@ -2083,3 +2083,12 @@ article {
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
 }
+
+.hsnl-nopaddingormargin {
+	padding: 0px;
+	margin: 0px;
+}
+
+.hsnl-paddingright {
+	padding-right: 10px;
+}

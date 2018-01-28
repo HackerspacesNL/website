@@ -1,9 +1,8 @@
-
 <div class="container clearfix">
   <div class="hgroup-wrap clearfix">
 {{ if .Site.Data.l10n.social }}
-    <section class="hgroup-right">
-      <div class="social-icons clearfix">
+    <section class="hgroup-right hsnl-nopaddingormargin">
+      <div class="social-icons clearfix hsnl-paddingright">
 	<ul>
 	  {{ if .Site.Social.facebook }}
 	  <li class="facebook">
@@ -66,17 +65,15 @@
 	</ul>
       </div><!-- .social-icons -->
     </section><!-- .hgroup-right -->
-    {{ end }}
-    
+{{ end }}
     <hgroup id="site-logo" class="clearfix">
       <h1 id="site-title">
-	<a href="/" rel="home">
-            <img src = "/site_header.png" />
-	</a>
+		<a href="/" rel="home">
+				<img src = "/site_header.png" />
+		</a>
       </h1>
       <h2 id="site-description">{{ .Site.Params.site_description }}</h2>
-    </hgroup><!-- #site-logo -->
-    
+    </hgroup><!-- #site-logo -->      
   </div><!-- .hgroup-wrap -->
 </div><!-- .container -->
 
