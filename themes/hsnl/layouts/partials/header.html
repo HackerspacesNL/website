@@ -3,6 +3,9 @@
 <title>{{ if .IsHome }}{{ .Site.Title }}  - {{ .Site.Params.site_description }} {{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }} </title>
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='travelify_style-css'  href="{{ .Site.BaseURL }}css/style.css" type='text/css' media='all' />
+<link rel='stylesheet' id='google_font_ubuntu-css'  href="//fonts.googleapis.com/css?family=Ubuntu" type='text/css' media='all' />
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <script id="dsq-count-scr" src="https://{{ .Site.DisqusShortname }}.disqus.com/count.js" async></script>
